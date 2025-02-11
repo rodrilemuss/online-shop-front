@@ -1,0 +1,149 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.alredy {
+  color: #888;
+}
+
+.order-details {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.order-details::-webkit-scrollbar {
+  width: 8px;
+}
+
+.order-details::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+.order-details::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.order-details::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+
+h3,
+h4 {
+  color: #333;
+}
+
+.product-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.product-image {
+  width: 100%;
+  max-width: 75px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: -25px;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.product-info p {
+  margin: 0;
+}
+
+.order-total {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.full-list
+:where(.css-dev-only-do-not-override-1htoz2s).ant-list-grid .ant-col>.ant-list-item {
+  display: flex;
+}
+
+.full-list
+.ant-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.full-list
+.ant-list-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .full-list
+  .ant-list-item {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .full-list
+  .ant-list-item {
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,46 @@
+/* Change all labels to white */
+.full-page .ant-form-item-label > label {
+    color: white !important; /* Label color */
+}
+
+/* Ensure input fields' text color is white as well */
+.full-page .ant-input, .full-page .ant-textarea, .full-page .ant-date-picker-input {
+    color: white !important;
+}
+
+/* Change the placeholder text to white */
+.full-page
+.ant-input::placeholder,
+.full-page
+.ant-textarea::placeholder,
+.full-page
+.ant-picker-input::placeholder {
+    color: white !important;
+}
+
+/* Button text color */
+.full-page .ant-btn {
+    color: white !important;
+}
+
+.full-page .ant-btn-default {
+    color: white !important;
+}
+
+.full-page .ant-picker-input::placeholder {
+    color: white !important;
+}
+
+/* Set the icon color (calendar icon) to white for DatePicker */
+.full-page .ant-picker-clear, .full-page .ant-picker-suffix {
+    color: white !important;
+}
+
+/* If you want to target the DatePicker input itself, ensure text color and background are white */
+.full-page
+.ant-picker-input,
+.full-page
+.ant-picker-input > input {
+    background-color: #242424 !important; /* Set the background color */
+    color: white !important; /* Set the text color */
+}
