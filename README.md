@@ -1,2 +1,2 @@
 # online-shop-front
-online-shop-web-app
+online-shop-front
